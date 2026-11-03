@@ -3,20 +3,183 @@
     {
       "id": "software",
       "name": "软件技术",
-      "desc": "写代码为主，四个方向都能摸，前端后端最顺。",
-      "affinity": { "frontend": 1, "backend": 1, "test": 0.85, "ops": 0.7 }
+      "desc": "写代码为主，技术类岗位基本都能摸，前端后端最顺。",
+      "affinity": {
+        "frontend": 1,
+        "backend": 1,
+        "test": 0.9,
+        "ops": 0.75,
+        "support": 0.8,
+        "data": 0.6
+      }
     },
     {
-      "id": "media",
-      "name": "数字媒体",
-      "desc": "和界面、动效、视觉打交道多，往前端靠最省力。",
-      "affinity": { "frontend": 0.95, "test": 0.6, "ops": 0.45, "backend": 0.4 }
+      "id": "cs-app",
+      "name": "计算机应用技术",
+      "desc": "面最宽的计算机专业，什么都要会一点。",
+      "affinity": {
+        "frontend": 0.9,
+        "backend": 0.85,
+        "test": 0.85,
+        "ops": 0.85,
+        "support": 0.9,
+        "network": 0.8,
+        "data": 0.7
+      }
+    },
+    {
+      "id": "network-tech",
+      "name": "计算机网络技术",
+      "desc": "和网络设备、服务器打交道多，运维和网络岗最对口。",
+      "affinity": {
+        "network": 1,
+        "ops": 0.9,
+        "support": 0.9,
+        "backend": 0.6,
+        "test": 0.6
+      }
+    },
+    {
+      "id": "bigdata",
+      "name": "大数据技术",
+      "desc": "数据采集、清洗、分析是主线。",
+      "affinity": {
+        "data": 1,
+        "backend": 0.7,
+        "test": 0.6,
+        "support": 0.5
+      }
+    },
+    {
+      "id": "ai-app",
+      "name": "人工智能技术应用",
+      "desc": "偏应用和数据处理，写代码和调模型都要会一点。",
+      "affinity": {
+        "data": 0.9,
+        "backend": 0.75,
+        "frontend": 0.6,
+        "test": 0.55
+      }
+    },
+    {
+      "id": "digital-media",
+      "name": "数字媒体艺术设计",
+      "desc": "界面、动效、视频都沾，设计和剪辑都能投。",
+      "affinity": {
+        "ui": 0.95,
+        "video": 0.85,
+        "graphic": 0.8,
+        "newmedia": 0.75,
+        "frontend": 0.7
+      }
+    },
+    {
+      "id": "visual",
+      "name": "视觉传达设计",
+      "desc": "海报、品牌、排版，纯视觉方向最对口。",
+      "affinity": {
+        "graphic": 1,
+        "ui": 0.9,
+        "video": 0.6,
+        "newmedia": 0.7
+      }
+    },
+    {
+      "id": "animation",
+      "name": "动漫制作技术",
+      "desc": "会画会做动效，剪辑和视觉都能接。",
+      "affinity": {
+        "video": 0.9,
+        "graphic": 0.8,
+        "ui": 0.75,
+        "newmedia": 0.65
+      }
+    },
+    {
+      "id": "film",
+      "name": "影视多媒体技术",
+      "desc": "拍摄、剪辑、后期一条龙。",
+      "affinity": {
+        "video": 1,
+        "newmedia": 0.8,
+        "graphic": 0.5,
+        "ui": 0.45
+      }
     },
     {
       "id": "ecommerce",
       "name": "电子商务",
-      "desc": "懂业务和沟通，实施运维、测试这类要跟人打交道的岗更贴合。",
-      "affinity": { "ops": 0.85, "test": 0.6, "frontend": 0.55, "backend": 0.45 }
+      "desc": "懂平台、懂交易链路，运营岗最对口。",
+      "affinity": {
+        "ecom": 1,
+        "newmedia": 0.85,
+        "data": 0.65,
+        "support": 0.6,
+        "graphic": 0.5
+      }
+    },
+    {
+      "id": "livestream",
+      "name": "网络营销与直播电商",
+      "desc": "内容、直播、带货是主线。",
+      "affinity": {
+        "newmedia": 1,
+        "ecom": 0.95,
+        "video": 0.7,
+        "graphic": 0.5
+      }
+    },
+    {
+      "id": "marketing",
+      "name": "市场营销",
+      "desc": "会写会说会分析，运营和客户侧都能投。",
+      "affinity": {
+        "ecom": 0.85,
+        "newmedia": 0.8,
+        "support": 0.7,
+        "data": 0.6
+      }
+    },
+    {
+      "id": "logistics",
+      "name": "物流管理",
+      "desc": "流程和数据打交道，电商和后台支持方向能接。",
+      "affinity": {
+        "ecom": 0.65,
+        "support": 0.6,
+        "data": 0.55,
+        "ops": 0.5
+      }
+    },
+    {
+      "id": "accounting",
+      "name": "会计",
+      "desc": "报表和数字敏感，数据类岗位可以跨过来。",
+      "affinity": {
+        "data": 0.7,
+        "ecom": 0.45,
+        "support": 0.5
+      }
+    },
+    {
+      "id": "business-english",
+      "name": "商务英语",
+      "desc": "沟通和文档能力强，客户侧岗位有优势。",
+      "affinity": {
+        "support": 0.75,
+        "ecom": 0.6,
+        "newmedia": 0.5
+      }
+    },
+    {
+      "id": "tourism",
+      "name": "旅游管理",
+      "desc": "服务意识和沟通是长项，客户类和内容类都能试。",
+      "affinity": {
+        "support": 0.65,
+        "newmedia": 0.6,
+        "ecom": 0.5
+      }
     }
   ]
 }

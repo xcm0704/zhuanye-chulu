@@ -1,16 +1,13 @@
 <script setup>
 import { computed } from 'vue'
-import { skillMap, freqOf, tierOf, collegeText, TIERS } from '../lib/match.js'
+import { skillMap, freqOf, tierOf, collegeText } from '../lib/match.js'
 
 const props = defineProps({
   job: { type: Object, required: true },
   city: { type: String, required: true },
 })
-
 defineEmits(['open'])
 
-const cityStat = computed(() => props.job.cities[props.city] || { salary: [0, 0] })
-const salaryText = computed(() => cityStat.value.salary[0] + '-' + cityStat.value.salary[1] + 'K')
 const college = computed(() => collegeText(props.job.id, props.city))
 
 const topSkills = computed(() =>
@@ -27,6 +24,7 @@ const topSkills = computed(() =>
 
 const tip = computed(() => {
   const aff = props.job.affinity
+  if (aff === undefined) return ''
   if (aff >= 0.9) return '和你专业最对口'
   if (aff >= 0.65) return '也算顺路，要多补一点'
   return '跨方向，补的东西会多一些'
@@ -37,7 +35,7 @@ const tip = computed(() => {
   <button class="card" @click="$emit('open')">
     <div class="jobcard-head">
       <h3>{{ job.name }}</h3>
-      <span class="salary">{{ salaryText }}<small> /月 · 待补</small></span>
+      <span class="headcount">{{ job.skills.length }} 项</span>
     </div>
     <p>{{ job.summary }}</p>
 
@@ -47,9 +45,7 @@ const tip = computed(() => {
       </span>
     </div>
 
-    <div class="meta">
-      <span>{{ college }}</span>
-    </div>
-    <div class="match-note">{{ tip }} · {{ TIERS.core.hint }}</div>
+    <div class="meta"><span>{{ college }}</span></div>
+    <div v-if="tip" class="match-note">{{ tip }}</div>
   </button>
 </template>

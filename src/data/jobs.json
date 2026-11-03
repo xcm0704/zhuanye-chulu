@@ -5,228 +5,225 @@
     "深圳",
     "杭州",
     "成都",
+    "广州",
     "大连"
   ],
   "jobs": [
     {
       "id": "frontend",
       "name": "前端开发",
+      "group": "技术",
       "summary": "把设计图变成能点的页面，和设计、后端对接。",
       "skills": [
         "html-css",
         "javascript",
         "vue",
-        "git",
-        "http-api",
-        "responsive",
-        "ui-framework",
         "debug",
-        "typescript",
-        "webpack-vite"
-      ],
-      "cities": {
-        "北京": {
-          "salary": [
-            6,
-            11
-          ]
-        },
-        "上海": {
-          "salary": [
-            6,
-            11
-          ]
-        },
-        "深圳": {
-          "salary": [
-            6,
-            10
-          ]
-        },
-        "杭州": {
-          "salary": [
-            5,
-            9
-          ]
-        },
-        "成都": {
-          "salary": [
-            4,
-            7
-          ]
-        },
-        "大连": {
-          "salary": [
-            3.5,
-            6
-          ]
-        }
-      }
+        "webpack-vite",
+        "responsive",
+        "http-api",
+        "ui-framework",
+        "git",
+        "typescript"
+      ]
     },
     {
       "id": "backend",
       "name": "后端开发",
+      "group": "技术",
       "summary": "写接口、管数据，前端要的东西都从你这拿。",
       "skills": [
         "java",
-        "sql",
-        "mysql",
         "springboot",
-        "git",
-        "http-api",
-        "linux",
-        "debug",
+        "mysql",
+        "sql",
+        "javascript",
         "redis",
-        "docker"
-      ],
-      "cities": {
-        "北京": {
-          "salary": [
-            7,
-            12
-          ]
-        },
-        "上海": {
-          "salary": [
-            7,
-            12
-          ]
-        },
-        "深圳": {
-          "salary": [
-            7,
-            11
-          ]
-        },
-        "杭州": {
-          "salary": [
-            6,
-            10
-          ]
-        },
-        "成都": {
-          "salary": [
-            4.5,
-            8
-          ]
-        },
-        "大连": {
-          "salary": [
-            4,
-            6.5
-          ]
-        }
-      }
+        "debug",
+        "doc",
+        "http-api",
+        "linux"
+      ]
     },
     {
       "id": "test",
       "name": "软件测试",
-      "summary": "在上线前把问题找出来，写用例、提单、盯回归。",
+      "group": "技术",
+      "summary": "上线前把问题找出来，写用例、提单、盯回归。",
       "skills": [
-        "test-theory",
-        "postman-api",
-        "sql",
         "bug-track",
         "http-api",
-        "git",
-        "linux",
-        "python",
         "selenium",
-        "jmeter"
-      ],
-      "cities": {
-        "北京": {
-          "salary": [
-            6,
-            9
-          ]
-        },
-        "上海": {
-          "salary": [
-            6,
-            9
-          ]
-        },
-        "深圳": {
-          "salary": [
-            5.5,
-            8.5
-          ]
-        },
-        "杭州": {
-          "salary": [
-            5,
-            8
-          ]
-        },
-        "成都": {
-          "salary": [
-            4,
-            6.5
-          ]
-        },
-        "大连": {
-          "salary": [
-            3.5,
-            5.5
-          ]
-        }
-      }
+        "test-theory",
+        "postman-api",
+        "debug",
+        "jmeter",
+        "customer-comm",
+        "python",
+        "java"
+      ]
     },
     {
       "id": "ops",
       "name": "实施 / 运维",
+      "group": "技术",
       "summary": "把系统装到客户那跑起来，出事第一个到现场。",
       "skills": [
         "linux",
         "network",
-        "mysql",
-        "sql",
         "deploy",
         "troubleshoot",
-        "customer-comm",
+        "mysql",
         "shell",
         "docker",
-        "git"
-      ],
-      "cities": {
-        "北京": {
-          "salary": [
-            5,
-            8
-          ]
-        },
-        "上海": {
-          "salary": [
-            5,
-            8
-          ]
-        },
-        "深圳": {
-          "salary": [
-            5,
-            7.5
-          ]
-        },
-        "杭州": {
-          "salary": [
-            4.5,
-            7
-          ]
-        },
-        "成都": {
-          "salary": [
-            3.5,
-            5.5
-          ]
-        },
-        "大连": {
-          "salary": [
-            3,
-            5
-          ]
-        }
-      }
+        "customer-comm",
+        "switch-config",
+        "debug"
+      ]
+    },
+    {
+      "id": "support",
+      "name": "技术支持",
+      "group": "技术",
+      "summary": "接客户的问题单，远程排查到解决为止。",
+      "skills": [
+        "customer-comm",
+        "troubleshoot",
+        "network",
+        "windows-server",
+        "switch-config",
+        "ticket",
+        "doc",
+        "debug",
+        "http-api",
+        "linux"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "网络工程师",
+      "group": "技术",
+      "summary": "拉线、配设备、调通网络，把网做稳。",
+      "skills": [
+        "network",
+        "switch-config",
+        "security",
+        "linux",
+        "troubleshoot",
+        "windows-server",
+        "deploy",
+        "cabling",
+        "doc",
+        "ticket"
+      ]
+    },
+    {
+      "id": "data",
+      "name": "数据分析",
+      "group": "数据",
+      "summary": "把业务数据洗干净、算清楚，讲明白发生了什么。",
+      "skills": [
+        "data-review",
+        "sql",
+        "excel",
+        "stats",
+        "bi",
+        "python",
+        "etl",
+        "ppt",
+        "mysql",
+        "ai-tool"
+      ]
+    },
+    {
+      "id": "ui",
+      "name": "UI / 交互设计",
+      "group": "设计",
+      "summary": "决定页面长什么样、点起来顺不顺手。",
+      "skills": [
+        "figma",
+        "responsive",
+        "photoshop",
+        "color",
+        "typography",
+        "ui-framework",
+        "ae",
+        "illustrator",
+        "html-css",
+        "doc"
+      ]
+    },
+    {
+      "id": "graphic",
+      "name": "平面设计",
+      "group": "设计",
+      "summary": "海报、物料、包装，把信息排得好看又好读。",
+      "skills": [
+        "photoshop",
+        "typography",
+        "brand",
+        "color",
+        "print",
+        "illustrator",
+        "ppt",
+        "ae",
+        "responsive",
+        "platform-ops"
+      ]
+    },
+    {
+      "id": "video",
+      "name": "短视频剪辑",
+      "group": "设计",
+      "summary": "把素材剪成有节奏、能留住人的成片。",
+      "skills": [
+        "premiere",
+        "shooting",
+        "ae",
+        "capcut",
+        "subtitle",
+        "script",
+        "photoshop",
+        "color",
+        "brand",
+        "content-plan"
+      ]
+    },
+    {
+      "id": "newmedia",
+      "name": "新媒体运营",
+      "group": "运营",
+      "summary": "想选题、写文案、发内容、看数据再调整。",
+      "skills": [
+        "content-plan",
+        "platform-ops",
+        "copywriting",
+        "data-review",
+        "script",
+        "shooting",
+        "capcut",
+        "user-grow",
+        "brand",
+        "typography"
+      ]
+    },
+    {
+      "id": "ecom",
+      "name": "电商运营",
+      "group": "运营",
+      "summary": "上架、定价、投推广，把店铺的销量做上去。",
+      "skills": [
+        "data-review",
+        "listing",
+        "user-grow",
+        "stats",
+        "selection",
+        "ecom-backend",
+        "ad-buy",
+        "excel",
+        "customer-comm",
+        "platform-ops"
+      ]
     }
   ]
 }

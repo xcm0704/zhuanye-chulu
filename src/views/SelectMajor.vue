@@ -4,7 +4,6 @@ import { store } from '../lib/store.js'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
-
 function pick(id) {
   store.majorId = id
   router.push('/jobs')
@@ -14,9 +13,9 @@ function pick(id) {
 <template>
   <section class="page">
     <h1>你学的是什么专业？</h1>
-    <p class="sub">选一个。它不会限制你能投什么，只影响后面岗位的排序和提示。</p>
+    <p class="sub">选一个。它不会限制你能投什么，只影响岗位排序和「跨方向」的提示。</p>
 
-    <div class="grid three">
+    <div class="grid four">
       <button
         v-for="m in majors.majors"
         :key="m.id"
