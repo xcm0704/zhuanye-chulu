@@ -1,0 +1,22 @@
+{
+  "majors": [
+    {
+      "id": "software",
+      "name": "软件技术",
+      "desc": "写代码为主，四个方向都能摸，前端后端最顺。",
+      "affinity": { "frontend": 1, "backend": 1, "test": 0.85, "ops": 0.7 }
+    },
+    {
+      "id": "media",
+      "name": "数字媒体",
+      "desc": "和界面、动效、视觉打交道多，往前端靠最省力。",
+      "affinity": { "frontend": 0.95, "test": 0.6, "ops": 0.45, "backend": 0.4 }
+    },
+    {
+      "id": "ecommerce",
+      "name": "电子商务",
+      "desc": "懂业务和沟通，实施运维、测试这类要跟人打交道的岗更贴合。",
+      "affinity": { "ops": 0.85, "test": 0.6, "frontend": 0.55, "backend": 0.45 }
+    }
+  ]
+}

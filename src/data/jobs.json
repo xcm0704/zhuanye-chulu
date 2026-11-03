@@ -1,0 +1,232 @@
+{
+  "cities": [
+    "北京",
+    "上海",
+    "深圳",
+    "杭州",
+    "成都",
+    "大连"
+  ],
+  "jobs": [
+    {
+      "id": "frontend",
+      "name": "前端开发",
+      "summary": "把设计图变成能点的页面，和设计、后端对接。",
+      "skills": [
+        "html-css",
+        "javascript",
+        "vue",
+        "git",
+        "http-api",
+        "responsive",
+        "ui-framework",
+        "debug",
+        "typescript",
+        "webpack-vite"
+      ],
+      "cities": {
+        "北京": {
+          "salary": [
+            6,
+            11
+          ]
+        },
+        "上海": {
+          "salary": [
+            6,
+            11
+          ]
+        },
+        "深圳": {
+          "salary": [
+            6,
+            10
+          ]
+        },
+        "杭州": {
+          "salary": [
+            5,
+            9
+          ]
+        },
+        "成都": {
+          "salary": [
+            4,
+            7
+          ]
+        },
+        "大连": {
+          "salary": [
+            3.5,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "backend",
+      "name": "后端开发",
+      "summary": "写接口、管数据，前端要的东西都从你这拿。",
+      "skills": [
+        "java",
+        "sql",
+        "mysql",
+        "springboot",
+        "git",
+        "http-api",
+        "linux",
+        "debug",
+        "redis",
+        "docker"
+      ],
+      "cities": {
+        "北京": {
+          "salary": [
+            7,
+            12
+          ]
+        },
+        "上海": {
+          "salary": [
+            7,
+            12
+          ]
+        },
+        "深圳": {
+          "salary": [
+            7,
+            11
+          ]
+        },
+        "杭州": {
+          "salary": [
+            6,
+            10
+          ]
+        },
+        "成都": {
+          "salary": [
+            4.5,
+            8
+          ]
+        },
+        "大连": {
+          "salary": [
+            4,
+            6.5
+          ]
+        }
+      }
+    },
+    {
+      "id": "test",
+      "name": "软件测试",
+      "summary": "在上线前把问题找出来，写用例、提单、盯回归。",
+      "skills": [
+        "test-theory",
+        "postman-api",
+        "sql",
+        "bug-track",
+        "http-api",
+        "git",
+        "linux",
+        "python",
+        "selenium",
+        "jmeter"
+      ],
+      "cities": {
+        "北京": {
+          "salary": [
+            6,
+            9
+          ]
+        },
+        "上海": {
+          "salary": [
+            6,
+            9
+          ]
+        },
+        "深圳": {
+          "salary": [
+            5.5,
+            8.5
+          ]
+        },
+        "杭州": {
+          "salary": [
+            5,
+            8
+          ]
+        },
+        "成都": {
+          "salary": [
+            4,
+            6.5
+          ]
+        },
+        "大连": {
+          "salary": [
+            3.5,
+            5.5
+          ]
+        }
+      }
+    },
+    {
+      "id": "ops",
+      "name": "实施 / 运维",
+      "summary": "把系统装到客户那跑起来，出事第一个到现场。",
+      "skills": [
+        "linux",
+        "network",
+        "mysql",
+        "sql",
+        "deploy",
+        "troubleshoot",
+        "customer-comm",
+        "shell",
+        "docker",
+        "git"
+      ],
+      "cities": {
+        "北京": {
+          "salary": [
+            5,
+            8
+          ]
+        },
+        "上海": {
+          "salary": [
+            5,
+            8
+          ]
+        },
+        "深圳": {
+          "salary": [
+            5,
+            7.5
+          ]
+        },
+        "杭州": {
+          "salary": [
+            4.5,
+            7
+          ]
+        },
+        "成都": {
+          "salary": [
+            3.5,
+            5.5
+          ]
+        },
+        "大连": {
+          "salary": [
+            3,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

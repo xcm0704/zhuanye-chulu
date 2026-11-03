@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+dev.log
+.deploy-tmp
+专业出路-dist.zip
+拖这个-单文件版/index.html
+*.log

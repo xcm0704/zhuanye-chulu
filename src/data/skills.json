@@ -1,0 +1,32 @@
+{
+  "skills": [
+    { "id": "html-css", "name": "HTML/CSS 布局", "stage": 1, "requires": [], "practice": "照着一张真实招聘卡片还原成静态页面，做到手机宽度下不用横向滚动。" },
+    { "id": "javascript", "name": "JavaScript", "stage": 1, "requires": ["html-css"], "practice": "不引框架，用原生 JS 把「勾技能算匹配度」这件事写出来。" },
+    { "id": "git", "name": "Git 版本控制", "stage": 1, "requires": [], "practice": "把课设推到 GitHub，开一个分支改完再合回主干，留下提交记录。" },
+    { "id": "linux", "name": "Linux 命令行", "stage": 1, "requires": [], "practice": "在自己电脑装 WSL 或虚拟机，用命令行把项目跑起来、看日志。" },
+    { "id": "sql", "name": "SQL 基础", "stage": 1, "requires": [], "practice": "建一张招聘表，写 10 条查询：按城市分组算平均薪资、按技能排序。" },
+    { "id": "network", "name": "网络基础", "stage": 1, "requires": [], "practice": "用 ping / telnet / curl 排查「网站打不开」的三种可能，写出结论。" },
+    { "id": "http-api", "name": "HTTP 与接口", "stage": 1, "requires": [], "practice": "打开浏览器 Network 面板，挑一个网站讲清三个请求的请求头、响应码。" },
+    { "id": "test-theory", "name": "测试理论与用例设计", "stage": 1, "requires": [], "practice": "给「登录」功能写 20 条用例，把边界值、异常输入覆盖满。" },
+    { "id": "bug-track", "name": "缺陷管理", "stage": 1, "requires": [], "practice": "把自己发现的 3 个 bug 按规范提单：复现步骤 / 预期 / 实际 / 严重程度。" },
+    { "id": "customer-comm", "name": "客户沟通与需求澄清", "stage": 1, "requires": [], "practice": "找同学当客户，问出 5 条他没说清的需求，写成一张需求确认单。" },
+    { "id": "debug", "name": "调试与 DevTools", "stage": 2, "requires": ["javascript"], "practice": "用断点跟一遍匹配度计算的每一步，指出哪个变量算错了。" },
+    { "id": "vue", "name": "Vue 3", "stage": 2, "requires": ["javascript"], "practice": "把这个项目的第 1 屏用 Vue 重写，拆成至少两个组件。" },
+    { "id": "java", "name": "Java", "stage": 2, "requires": [], "practice": "用 Java 写个小工具，读 CSV 统计出现次数最多的技能词。" },
+    { "id": "springboot", "name": "Spring Boot", "stage": 2, "requires": ["java"], "practice": "写一个「岗位列表」接口返回 JSON，用 Postman 调通。" },
+    { "id": "typescript", "name": "TypeScript", "stage": 2, "requires": ["javascript"], "practice": "给匹配算法加类型，把所有的 any 都干掉。" },
+    { "id": "ui-framework", "name": "组件库（Element Plus）", "stage": 2, "requires": ["vue"], "practice": "用组件库把匹配器做成一个表单页，带校验和空状态。" },
+    { "id": "responsive", "name": "响应式 / 移动适配", "stage": 2, "requires": ["html-css"], "practice": "把三屏在手机宽度下改到不用放大也能点、能读。" },
+    { "id": "mysql", "name": "MySQL", "stage": 2, "requires": ["sql"], "practice": "本地装 MySQL，把招聘数据灌进去，写联表查询找出热门技能。" },
+    { "id": "python", "name": "Python", "stage": 2, "requires": [], "practice": "写个脚本，把一堆 JD 文本里的技能词统计成频率表。" },
+    { "id": "postman-api", "name": "接口测试（Postman）", "stage": 2, "requires": ["http-api"], "practice": "给一个公开 API 写 5 条用例，带断言，跑出一份测试报告。" },
+    { "id": "shell", "name": "Shell 脚本", "stage": 2, "requires": ["linux"], "practice": "写个备份脚本并挂上定时任务，第二天验证真的跑了。" },
+    { "id": "troubleshoot", "name": "故障排查", "stage": 2, "requires": ["linux", "network"], "practice": "给自己造三个故障（端口占用、磁盘满、权限不足）再逐个修好。" },
+    { "id": "selenium", "name": "自动化测试（Selenium）", "stage": 3, "requires": ["python"], "practice": "自动登录一个练习网站、截图、断言标题正确。" },
+    { "id": "jmeter", "name": "性能测试（JMeter）", "stage": 3, "requires": ["test-theory"], "practice": "对本地接口做 50 并发压测，出一份带瓶颈分析的报告。" },
+    { "id": "webpack-vite", "name": "构建工具（Vite/Webpack）", "stage": 3, "requires": ["javascript"], "practice": "把项目从 CDN 引入改成 npm 安装 + Vite 打包，说清产物怎么来的。" },
+    { "id": "redis", "name": "Redis", "stage": 3, "requires": [], "practice": "用 Redis 存「技能点击次数」，做一个小排行并接进页面。" },
+    { "id": "docker", "name": "Docker", "stage": 3, "requires": ["linux"], "practice": "把自己的前后端各打成一个镜像，用 compose 一条命令起起来。" },
+    { "id": "deploy", "name": "部署上线", "stage": 3, "requires": ["linux"], "practice": "把项目丢到一台服务器（或免费托管）上，让别人能用网址打开。" }
+  ]
+}

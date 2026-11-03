@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "version": "v1-真实样本",
+    "jdCount": 71,
+    "byDirection": {
+      "frontend": 16,
+      "backend": 17,
+      "test": 18,
+      "ops": 20
+    },
+    "dropped": {
+      "senior": 9,
+      "irrelevant": 1
+    },
+    "source": "智联招聘公开招聘页（jobdetail 原文，逐条保留来源 URL，见 data-src/sources.json）",
+    "collectedAt": "2026-11-03",
+    "salaryNote": "薪资区间需登录后才显示，本轮未采集；界面沿用占位区间并已标注为待补",
+    "rule": "技能出现率 >=50% 核心 3 分，25-50% 重要 2 分，其余加分 1 分；已剔除资深/经理岗",
+    "collegeRule": "大专可投 = 招聘页学历标注明确写「大专/学历不限/中专/高中」的比例；某城不足 8 条时不单独统计，退回全国样本"
+  },
+  "freq": {
+    "frontend": {
+      "html-css": 50,
+      "javascript": 50,
+      "typescript": 13,
+      "vue": 56,
+      "ui-framework": 25,
+      "responsive": 44,
+      "webpack-vite": 44,
+      "debug": 38,
+      "http-api": 38,
+      "git": 31,
+      "java": 31,
+      "springboot": 25,
+      "sql": 25,
+      "mysql": 25,
+      "redis": 19,
+      "docker": 25,
+      "linux": 25,
+      "network": 38,
+      "python": 19,
+      "postman-api": 0,
+      "test-theory": 0,
+      "bug-track": 6,
+      "selenium": 0,
+      "jmeter": 0,
+      "shell": 0,
+      "troubleshoot": 25,
+      "deploy": 50,
+      "customer-comm": 44
+    },
+    "backend": {
+      "html-css": 12,
+      "javascript": 59,
+      "typescript": 0,
+      "vue": 12,
+      "ui-framework": 0,
+      "responsive": 12,
+      "webpack-vite": 24,
+      "debug": 47,
+      "http-api": 35,
+      "git": 12,
+      "java": 94,
+      "springboot": 71,
+      "sql": 53,
+      "mysql": 71,
+      "redis": 47,
+      "docker": 12,
+      "linux": 24,
+      "network": 29,
+      "python": 35,
+      "postman-api": 0,
+      "test-theory": 6,
+      "bug-track": 18,
+      "selenium": 6,
+      "jmeter": 0,
+      "shell": 6,
+      "troubleshoot": 41,
+      "deploy": 53,
+      "customer-comm": 24
+    },
+    "test": {
+      "html-css": 0,
+      "javascript": 11,
+      "typescript": 0,
+      "vue": 0,
+      "ui-framework": 0,
+      "responsive": 22,
+      "webpack-vite": 22,
+      "debug": 44,
+      "http-api": 67,
+      "git": 0,
+      "java": 28,
+      "springboot": 6,
+      "sql": 28,
+      "mysql": 17,
+      "redis": 0,
+      "docker": 6,
+      "linux": 17,
+      "network": 22,
+      "python": 33,
+      "postman-api": 39,
+      "test-theory": 50,
+      "bug-track": 56,
+      "selenium": 50,
+      "jmeter": 33,
+      "shell": 28,
+      "troubleshoot": 22,
+      "deploy": 61,
+      "customer-comm": 39
+    },
+    "ops": {
+      "html-css": 5,
+      "javascript": 5,
+      "typescript": 0,
+      "vue": 0,
+      "ui-framework": 0,
+      "responsive": 5,
+      "webpack-vite": 10,
+      "debug": 55,
+      "http-api": 15,
+      "git": 10,
+      "java": 15,
+      "springboot": 5,
+      "sql": 10,
+      "mysql": 30,
+      "redis": 15,
+      "docker": 35,
+      "linux": 50,
+      "network": 70,
+      "python": 20,
+      "postman-api": 0,
+      "test-theory": 0,
+      "bug-track": 0,
+      "selenium": 0,
+      "jmeter": 5,
+      "shell": 35,
+      "troubleshoot": 65,
+      "deploy": 50,
+      "customer-comm": 40
+    }
+  },
+  "college": {
+    "frontend": {
+      "北京": {
+        "rate": 19,
+        "n": 21
+      },
+      "杭州": {
+        "rate": 48,
+        "n": 21
+      },
+      "all": {
+        "rate": 33,
+        "n": 42
+      }
+    },
+    "backend": {
+      "深圳": {
+        "rate": 29,
+        "n": 21
+      },
+      "all": {
+        "rate": 29,
+        "n": 21
+      }
+    },
+    "test": {
+      "广州": {
+        "rate": 43,
+        "n": 21
+      },
+      "all": {
+        "rate": 43,
+        "n": 21
+      }
+    },
+    "ops": {
+      "上海": {
+        "rate": 52,
+        "n": 21
+      },
+      "北京": {
+        "rate": 38,
+        "n": 42
+      },
+      "广州": {
+        "rate": 62,
+        "n": 21
+      },
+      "成都": {
+        "rate": 14,
+        "n": 21
+      },
+      "all": {
+        "rate": 41,
+        "n": 105
+      }
+    }
+  }
+}
