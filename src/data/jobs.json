@@ -3,9 +3,18 @@
     "北京",
     "上海",
     "深圳",
-    "杭州",
-    "成都",
     "广州",
+    "杭州",
+    "南京",
+    "苏州",
+    "成都",
+    "重庆",
+    "武汉",
+    "西安",
+    "天津",
+    "长沙",
+    "青岛",
+    "合肥",
     "大连"
   ],
   "jobs": [
@@ -190,9 +199,27 @@
       ]
     },
     {
+      "id": "product",
+      "name": "产品助理",
+      "group": "产品与运营",
+      "summary": "把需求问清楚、写成文档、盯着做出来。",
+      "skills": [
+        "customer-comm",
+        "data-review",
+        "stats",
+        "ppt",
+        "excel",
+        "content-plan",
+        "listing",
+        "user-grow",
+        "ticket",
+        "network"
+      ]
+    },
+    {
       "id": "newmedia",
       "name": "新媒体运营",
-      "group": "运营",
+      "group": "产品与运营",
       "summary": "想选题、写文案、发内容、看数据再调整。",
       "skills": [
         "content-plan",
@@ -210,7 +237,7 @@
     {
       "id": "ecom",
       "name": "电商运营",
-      "group": "运营",
+      "group": "产品与运营",
       "summary": "上架、定价、投推广，把店铺的销量做上去。",
       "skills": [
         "data-review",
@@ -223,6 +250,22 @@
         "excel",
         "customer-comm",
         "platform-ops"
+      ]
+    },
+    {
+      "id": "service",
+      "name": "客服 / 客户成功",
+      "group": "服务",
+      "summary": "接客户电话和工单，把问题解决掉、把人留住。",
+      "skills": [
+        "crm",
+        "customer-comm",
+        "ticket",
+        "stats",
+        "excel",
+        "ppt",
+        "data-review",
+        "english"
       ]
     }
   ]

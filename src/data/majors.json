@@ -3,73 +3,193 @@
     {
       "id": "software",
       "name": "软件技术",
-      "desc": "写代码为主，技术类岗位基本都能摸，前端后端最顺。",
+      "desc": "写代码为主，技术类岗位基本都能摸，前后端最顺。",
+      "recommended": [
+        "frontend",
+        "backend",
+        "test",
+        "ops",
+        "support"
+      ],
       "affinity": {
         "frontend": 1,
-        "backend": 1,
-        "test": 0.9,
-        "ops": 0.75,
-        "support": 0.8,
-        "data": 0.6
+        "backend": 0.92,
+        "test": 0.85,
+        "ops": 0.78,
+        "support": 0.7
       }
     },
     {
       "id": "cs-app",
       "name": "计算机应用技术",
       "desc": "面最宽的计算机专业，什么都要会一点。",
+      "recommended": [
+        "frontend",
+        "backend",
+        "test",
+        "ops",
+        "support",
+        "data"
+      ],
       "affinity": {
-        "frontend": 0.9,
-        "backend": 0.85,
+        "frontend": 1,
+        "backend": 0.92,
         "test": 0.85,
-        "ops": 0.85,
-        "support": 0.9,
-        "network": 0.8,
-        "data": 0.7
+        "ops": 0.78,
+        "support": 0.7,
+        "data": 0.62
       }
     },
     {
       "id": "network-tech",
       "name": "计算机网络技术",
-      "desc": "和网络设备、服务器打交道多，运维和网络岗最对口。",
+      "desc": "和网络设备、服务器打交道多，网络和运维最对口。",
+      "recommended": [
+        "network",
+        "ops",
+        "support",
+        "test"
+      ],
       "affinity": {
         "network": 1,
-        "ops": 0.9,
-        "support": 0.9,
-        "backend": 0.6,
-        "test": 0.6
+        "ops": 0.92,
+        "support": 0.85,
+        "test": 0.78
+      }
+    },
+    {
+      "id": "mobile",
+      "name": "移动应用开发",
+      "desc": "写 App 和移动端页面，前端和测试都能接。",
+      "recommended": [
+        "frontend",
+        "test",
+        "support",
+        "ui"
+      ],
+      "affinity": {
+        "frontend": 1,
+        "test": 0.92,
+        "support": 0.85,
+        "ui": 0.78
+      }
+    },
+    {
+      "id": "cloud",
+      "name": "云计算技术应用",
+      "desc": "服务器、容器、自动化是主线。",
+      "recommended": [
+        "ops",
+        "network",
+        "support",
+        "data"
+      ],
+      "affinity": {
+        "ops": 1,
+        "network": 0.92,
+        "support": 0.85,
+        "data": 0.78
+      }
+    },
+    {
+      "id": "security-tech",
+      "name": "信息安全技术应用",
+      "desc": "安全加固、等保、网络防护。",
+      "recommended": [
+        "network",
+        "ops",
+        "support",
+        "test"
+      ],
+      "affinity": {
+        "network": 1,
+        "ops": 0.92,
+        "support": 0.85,
+        "test": 0.78
+      }
+    },
+    {
+      "id": "iot",
+      "name": "物联网应用技术",
+      "desc": "设备接入、现场调试、系统运维。",
+      "recommended": [
+        "ops",
+        "support",
+        "network",
+        "test"
+      ],
+      "affinity": {
+        "ops": 1,
+        "support": 0.92,
+        "network": 0.85,
+        "test": 0.78
       }
     },
     {
       "id": "bigdata",
       "name": "大数据技术",
-      "desc": "数据采集、清洗、分析是主线。",
+      "desc": "数据采集、清洗、分析一条龙。",
+      "recommended": [
+        "data",
+        "backend",
+        "test"
+      ],
       "affinity": {
         "data": 1,
-        "backend": 0.7,
-        "test": 0.6,
-        "support": 0.5
+        "backend": 0.92,
+        "test": 0.85
       }
     },
     {
       "id": "ai-app",
       "name": "人工智能技术应用",
-      "desc": "偏应用和数据处理，写代码和调模型都要会一点。",
+      "desc": "偏应用和数据处理，写代码和用模型都要会。",
+      "recommended": [
+        "data",
+        "backend",
+        "test",
+        "frontend"
+      ],
       "affinity": {
-        "data": 0.9,
-        "backend": 0.75,
-        "frontend": 0.6,
-        "test": 0.55
+        "data": 1,
+        "backend": 0.92,
+        "test": 0.85,
+        "frontend": 0.78
+      }
+    },
+    {
+      "id": "info-mgmt",
+      "name": "计算机信息管理",
+      "desc": "系统维护 + 数据整理，偏支持岗。",
+      "recommended": [
+        "data",
+        "support",
+        "ops",
+        "test"
+      ],
+      "affinity": {
+        "data": 1,
+        "support": 0.92,
+        "ops": 0.85,
+        "test": 0.78
       }
     },
     {
       "id": "digital-media",
       "name": "数字媒体艺术设计",
       "desc": "界面、动效、视频都沾，设计和剪辑都能投。",
+      "recommended": [
+        "ui",
+        "video",
+        "graphic",
+        "newmedia",
+        "frontend"
+      ],
       "affinity": {
-        "ui": 0.95,
-        "video": 0.85,
-        "graphic": 0.8,
-        "newmedia": 0.75,
+        "ui": 1,
+        "video": 0.92,
+        "graphic": 0.85,
+        "newmedia": 0.78,
         "frontend": 0.7
       }
     },
@@ -77,108 +197,299 @@
       "id": "visual",
       "name": "视觉传达设计",
       "desc": "海报、品牌、排版，纯视觉方向最对口。",
+      "recommended": [
+        "graphic",
+        "ui",
+        "video",
+        "newmedia"
+      ],
       "affinity": {
         "graphic": 1,
-        "ui": 0.9,
-        "video": 0.6,
-        "newmedia": 0.7
+        "ui": 0.92,
+        "video": 0.85,
+        "newmedia": 0.78
+      }
+    },
+    {
+      "id": "ad-design",
+      "name": "广告设计与制作",
+      "desc": "做物料、做活动、做投放素材。",
+      "recommended": [
+        "graphic",
+        "newmedia",
+        "video",
+        "ecom"
+      ],
+      "affinity": {
+        "graphic": 1,
+        "newmedia": 0.92,
+        "video": 0.85,
+        "ecom": 0.78
+      }
+    },
+    {
+      "id": "product-design",
+      "name": "产品艺术设计",
+      "desc": "从产品外形到界面体验。",
+      "recommended": [
+        "ui",
+        "graphic",
+        "product"
+      ],
+      "affinity": {
+        "ui": 1,
+        "graphic": 0.92,
+        "product": 0.85
       }
     },
     {
       "id": "animation",
       "name": "动漫制作技术",
       "desc": "会画会做动效，剪辑和视觉都能接。",
+      "recommended": [
+        "video",
+        "ui",
+        "graphic",
+        "newmedia"
+      ],
       "affinity": {
-        "video": 0.9,
-        "graphic": 0.8,
-        "ui": 0.75,
-        "newmedia": 0.65
+        "video": 1,
+        "ui": 0.92,
+        "graphic": 0.85,
+        "newmedia": 0.78
       }
     },
     {
       "id": "film",
       "name": "影视多媒体技术",
       "desc": "拍摄、剪辑、后期一条龙。",
+      "recommended": [
+        "video",
+        "newmedia",
+        "graphic"
+      ],
       "affinity": {
         "video": 1,
-        "newmedia": 0.8,
-        "graphic": 0.5,
-        "ui": 0.45
+        "newmedia": 0.92,
+        "graphic": 0.85
+      }
+    },
+    {
+      "id": "broadcasting",
+      "name": "播音与主持",
+      "desc": "会说话、敢出镜，内容和服务岗都吃这套。",
+      "recommended": [
+        "newmedia",
+        "service",
+        "video"
+      ],
+      "affinity": {
+        "newmedia": 1,
+        "service": 0.92,
+        "video": 0.85
       }
     },
     {
       "id": "ecommerce",
       "name": "电子商务",
       "desc": "懂平台、懂交易链路，运营岗最对口。",
+      "recommended": [
+        "ecom",
+        "newmedia",
+        "product",
+        "service",
+        "data"
+      ],
       "affinity": {
         "ecom": 1,
-        "newmedia": 0.85,
-        "data": 0.65,
-        "support": 0.6,
-        "graphic": 0.5
+        "newmedia": 0.92,
+        "product": 0.85,
+        "service": 0.78,
+        "data": 0.7
       }
     },
     {
       "id": "livestream",
       "name": "网络营销与直播电商",
       "desc": "内容、直播、带货是主线。",
+      "recommended": [
+        "newmedia",
+        "ecom",
+        "video",
+        "product"
+      ],
       "affinity": {
         "newmedia": 1,
-        "ecom": 0.95,
-        "video": 0.7,
-        "graphic": 0.5
+        "ecom": 0.92,
+        "video": 0.85,
+        "product": 0.78
       }
     },
     {
       "id": "marketing",
       "name": "市场营销",
       "desc": "会写会说会分析，运营和客户侧都能投。",
+      "recommended": [
+        "ecom",
+        "newmedia",
+        "product",
+        "service"
+      ],
       "affinity": {
-        "ecom": 0.85,
-        "newmedia": 0.8,
-        "support": 0.7,
-        "data": 0.6
+        "ecom": 1,
+        "newmedia": 0.92,
+        "product": 0.85,
+        "service": 0.78
+      }
+    },
+    {
+      "id": "chain",
+      "name": "连锁经营与管理",
+      "desc": "门店、督导、客户维护。",
+      "recommended": [
+        "ecom",
+        "service",
+        "product"
+      ],
+      "affinity": {
+        "ecom": 1,
+        "service": 0.92,
+        "product": 0.85
+      }
+    },
+    {
+      "id": "trade",
+      "name": "国际贸易实务",
+      "desc": "跟单、报关、跨境店铺运营。",
+      "recommended": [
+        "ecom",
+        "service",
+        "product"
+      ],
+      "affinity": {
+        "ecom": 1,
+        "service": 0.92,
+        "product": 0.85
       }
     },
     {
       "id": "logistics",
-      "name": "物流管理",
-      "desc": "流程和数据打交道，电商和后台支持方向能接。",
+      "name": "现代物流管理",
+      "desc": "仓配、调度、数据对账。",
+      "recommended": [
+        "ecom",
+        "service",
+        "product",
+        "data"
+      ],
       "affinity": {
-        "ecom": 0.65,
-        "support": 0.6,
-        "data": 0.55,
-        "ops": 0.5
+        "ecom": 1,
+        "service": 0.92,
+        "product": 0.85,
+        "data": 0.78
       }
     },
     {
       "id": "accounting",
       "name": "会计",
       "desc": "报表和数字敏感，数据类岗位可以跨过来。",
+      "recommended": [
+        "data",
+        "ecom",
+        "service"
+      ],
       "affinity": {
-        "data": 0.7,
-        "ecom": 0.45,
-        "support": 0.5
+        "data": 1,
+        "ecom": 0.92,
+        "service": 0.85
+      }
+    },
+    {
+      "id": "finance",
+      "name": "金融管理",
+      "desc": "客户服务和数据整理都能上手。",
+      "recommended": [
+        "service",
+        "data",
+        "ecom"
+      ],
+      "affinity": {
+        "service": 1,
+        "data": 0.92,
+        "ecom": 0.85
       }
     },
     {
       "id": "business-english",
       "name": "商务英语",
       "desc": "沟通和文档能力强，客户侧岗位有优势。",
+      "recommended": [
+        "service",
+        "ecom",
+        "newmedia",
+        "product"
+      ],
       "affinity": {
-        "support": 0.75,
-        "ecom": 0.6,
-        "newmedia": 0.5
+        "service": 1,
+        "ecom": 0.92,
+        "newmedia": 0.85,
+        "product": 0.78
+      }
+    },
+    {
+      "id": "secretarial",
+      "name": "文秘",
+      "desc": "文档、协调、表格，行政支持类最对口。",
+      "recommended": [
+        "service",
+        "product",
+        "data"
+      ],
+      "affinity": {
+        "service": 1,
+        "product": 0.92,
+        "data": 0.85
       }
     },
     {
       "id": "tourism",
       "name": "旅游管理",
       "desc": "服务意识和沟通是长项，客户类和内容类都能试。",
+      "recommended": [
+        "service",
+        "newmedia",
+        "product"
+      ],
       "affinity": {
-        "support": 0.65,
-        "newmedia": 0.6,
-        "ecom": 0.5
+        "service": 1,
+        "newmedia": 0.92,
+        "product": 0.85
+      }
+    },
+    {
+      "id": "hotel",
+      "name": "酒店管理",
+      "desc": "服务流程熟，客户成功和内容运营都能接。",
+      "recommended": [
+        "service",
+        "newmedia"
+      ],
+      "affinity": {
+        "service": 1,
+        "newmedia": 0.92
+      }
+    },
+    {
+      "id": "law",
+      "name": "法律事务",
+      "desc": "文字和流程严谨，文档类和客户类岗位合适。",
+      "recommended": [
+        "service",
+        "product"
+      ],
+      "affinity": {
+        "service": 1,
+        "product": 0.92
       }
     }
   ]
